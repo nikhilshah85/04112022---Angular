@@ -1,0 +1,38 @@
+Client Centeric Application 
+Web Revolution
+Angular
+	Components
+	Pipes
+	Services
+	Routes
+	Angular Material
+	How are REST ful services developed in .Net 
+	How angular will interact with REST
+	Typescript and Opertors etc...
+------------------------------------------------------------
+Pre-requisite
+	a. Fundamentals on OOPS and HTML + CSS
+	b. Software
+		NodeJS
+		VSCode
+		SQL Server with SSMS, 
+		Visual Studio 2017 / 2019 / 2022 
+	if have do not have them installed on ur machine, make use of cognizant cloud lab
+		
+---------------------------------------------------------
+Goals :
+	Be confident on topics of Angular
+	Be a part of new Angular Project
+	Take an existing project for Maintanance
+
+----------------------------------------------------------
+last 15 mins of training session is for QnA
+
+
+
+
+
+
+
+
+

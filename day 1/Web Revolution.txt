@@ -1,0 +1,102 @@
+	
+
+					Angular
+			(React, Node, Backbone, knockout etc.....)
+			
+
+		ALl of this are  a part of Web Revolution 
+
+		So what is Web Revolution (2014 onwards and got coind in 2016)
+------------------------------------------------------------------------------------------------------
+
+
+		1. When was the first time you used internet - Year ? -- World Average is 2005
+		2. Where did u use internet in those days - Home - Office - Cyber 
+		3. Why did you use internet for - Email, general social media, surfing
+		4. Source of Internet - Broadband - WiFi- Dongle
+		5. Devise - Laptop - Desktop 
+		Thus web developer has to develop site accordingly
+----------------------------
+		Today
+		1. Where do u use internet this days --- Everywhere
+		2. Why did you use internet for --- Everything
+		3. Source of Internet - Mobile Data + Wifi
+		4. Devise - Mobile - devises - laptop 
+			Mobile 
+				Resolution is different for most of the mobile
+				Habbits of end user
+					images - zoom in zoom out with fingures
+					video - flip the screen 
+					Places - use Navigator - check in - check out
+					We make internet run behind us 
+					Clear the Caching
+					Hardware is different
+---------------------------------------------------------------------------------------------------				
+	We need to create an application which will work like an app installed on users 		machine
+
+			Client Centeric App (REST calls, Routing, SPA application)
+		--ASP.net, Java, PHP, Python, etc...this were server centeric apps
+		--HTML, CSS and JS - they had their own drawback
+			JS - was not at all OOPS based, not compiled
+
+			W3C and ECMA - came out with OOPS version of JS, which is also compiled		
+			ES6 has classes, methods, interfaces, datatypes etc....
+
+			Problem - very difficult to program/script as syntax was totally differnt
+
+			Thus Microsoft  - tool ES6 - made it easy look like C# and Java, gave a 				compiler - TypeScript
+
+			Google - used Typescript and created client centeric framework for developer
+				Angular
+			Facebook - used Typescript and created client centeric framework for developer
+				React
+			Twitter - used Typescript and created client centeric framework for developer
+				Bootstrap
+			Opensouce - Backbone, knockout, 50+ testing framework 
+			
+			Google - Angular Material 
+
+---------------------------------------------------------------------------------------------------
+
+			Angular Development 
+				Softwares
+					NodeJS
+					VSCode - free tool for development
+			
+
+			Angular Developement 
+				Components - Most of the development here
+				Pipes - for data Format
+				Services - API calls
+					   Logic shareing
+					   Routing
+				Directives - short hand UI display 
+				
+			
+
+
+
+
+
+
+
+			
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+				
+			
