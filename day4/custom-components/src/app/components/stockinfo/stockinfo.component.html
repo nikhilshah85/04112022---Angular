@@ -1,0 +1,22 @@
+
+
+
+<h1> Stock Holdings</h1>
+
+<button (click)="getSummary()">Show Summary</button>
+
+<div class="divSummary">
+    <h2> Total Stocks : {{ totalStocks }}</h2>
+    <h2> Investment : {{ totalInvestmentValue }} </h2>
+    <h2> Current Value : {{ totalCurrentValue }}</h2>
+    <!-- <h2 *ngIf="'isInProfitOrLoss Profit;else Loss'"> </h2> -->
+</div>
+<div *ngFor="let s of stockHoldings">    
+<div  [ngClass]="{'redDiv':s.purchasePrice > s.currentPrice,'greenDiv':s.purchasePrice < s.currentPrice}">
+        <h4> Stock Name : {{ s.stockName }} ( {{ s.stockId }}  )</h4>
+        <h4> Available Qty :{{ s.qty }} </h4>
+        <h4> Purchase Price : {{ s.purchasePrice }} </h4>
+        <h4> Crrent Price : {{ s.currentPrice }} </h4>
+        <hr/>
+    </div>
+</div>

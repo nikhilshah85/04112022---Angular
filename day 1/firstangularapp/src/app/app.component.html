@@ -1,0 +1,29 @@
+
+
+<h1> My First Angular APP </h1>
+<hr/>
+<p> Hello and welcome to my first Angular Applicaiton , this is a first day of demo </p>
+
+
+<div>
+  <h3> Project : {{ projectName }}</h3>
+  <h3> Team Stength : {{ teamSize }}</h3>
+  <h3> Cost (M$) : {{ projectCost }}</h3>
+  <h3> Client : {{ clientName }}</h3>
+  <h3> Is Live : {{ isProjectLive }}</h3>
+</div>
+
+<ul>
+  <li *ngFor="let p of favProducts"> {{ p }}</li>
+</ul>
+
+<select>
+  <option *ngFor="let fp of favProducts"> {{ fp }}</option>
+</select>
+
+
+<span *ngFor="let p of favProducts">
+  <input type="checkbox"/> {{p}}
+</span>
+
+

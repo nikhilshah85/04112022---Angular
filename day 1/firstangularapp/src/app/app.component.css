@@ -1,0 +1,12 @@
+h1{
+    text-align: center;
+    color: orangered;
+}
+
+div{
+    background-color: green;
+    color: yellow;
+    width: 300px;
+    height: 500px;
+    float: right;
+}

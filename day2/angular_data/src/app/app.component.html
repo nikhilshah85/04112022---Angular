@@ -1,0 +1,59 @@
+<h1 class="appHeader"> {{ appTitle }} </h1>
+<p class="totalProducts"> Total Products : {{ totalProducts }} </p>
+<hr/>
+
+
+
+
+
+ <p  class="projectDetails"> App Name : {{appDetails.appName}}  ----- Developer : {{ appDetails.developedBy }}  ----- Team Size : {{ appDetails.teamSize }} </p>
+
+
+
+<div class="divNavs">
+
+  <span *ngFor="let c of productCategories" class="pCategoriesNav">
+    <a href="#"> {{ c }} </a> | 
+  </span>
+</div>
+
+<!-- <table border="1">
+  <tr>
+    <th> Product ID</th>
+    <th> Product Name</th>
+    <th> Product Category</th>
+    <th> Product Price</th>
+    <th> Product Discount Rate</th>
+    <th> Offer Price</th>
+  </tr>
+  <tr *ngFor="let p of productList">
+    <td> {{ p.pId }}</td>
+    <td> {{ p.pName }}</td>
+    <td> {{ p.pCategory }}</td>
+    <td> {{ p.pPrice }}</td>
+    <td> {{ p.pDiscountRate }}</td>
+    <td> {{ p.pPrice  - ( p.pPrice * p.pDiscountRate / 100) }}</td>    
+  </tr>
+</table> -->
+
+<div class="float-container">
+<div class="float-child" *ngFor="let p of productList">
+  <h3> Product Id : {{ p.pId}}</h3>
+  <h3> Product Name : {{ p.pName}}   </h3>
+  <h3> Product Category : {{ p.pCategory}}</h3>
+  <h3> Product Price : {{ p.pPrice}}</h3>
+  <h3> Product Discount Rate : {{ p.pDiscountRate}}</h3>
+  <h3>Offer Price: {{ p.pPrice  - ( p.pPrice * p.pDiscountRate / 100) }}</h3>
+</div>
+
+</div>
+
+
+
+
+
+
+
+
+
+

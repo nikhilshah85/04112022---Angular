@@ -1,0 +1,19 @@
+
+<products></products>
+
+<customers></customers>
+
+<!-- 
+uppercase
+lowercase
+titlecase
+currency
+datatime -->
+
+<h1> First Name : {{ firstName | titlecase}}</h1>
+<h1> Last Name : {{ lastName }}</h1>
+<h1> Salary : {{ salary | currency : 'EUR' : true}}</h1>
+<h1> DOJ : {{ doj | date : 'shortTime' }} </h1>
+
+<h1> Contact : {{ contactInfo | json}} </h1>
+<hr/>

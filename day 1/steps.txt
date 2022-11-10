@@ -1,0 +1,29 @@
+1. Installed NodeJS from 
+	nodejs.org
+
+2. from cmd - 
+	node -v - 18.12.1
+	npm  -v - 8.19.2
+
+3. Insall Angular CLI
+	npm install @angular/cli
+
+4. ng new firstangularapp
+	(say No to Routing - N)
+	(choose CSS)
+
+5. ng serve : http://localhost:4200/
+	
+6. Make changes to app.component.html and app.component.css, save and check the browser
+------------------------------------------------------------------------------------------
+7. Angular is All about component
+
+	html + css + ts + (spec.ts)
+
+	nameing convertion for products component would be
+
+	products.component.html
+	products.component.css
+	products.component.ts
+	products.component.spec.ts
+	

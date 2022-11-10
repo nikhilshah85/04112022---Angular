@@ -1,0 +1,25 @@
+Angular Components with Data
+
+	Categories of data
+	1. Primitive datatypes
+		firstName = "Nikhil";
+		teamSize = 20;
+	2. Primitive data Array
+		products = ['Pepsi','Coke','Iphone','Sandwitches']
+	3. JSON Object
+		projectDetails = { projectName : 'Banking APP',
+				   clientName : 'Amazon',
+				    teamSize: 20,
+				    projectIsLive : false,
+				    projectLead : 'Someone
+				  }
+	4. Array Of JSON Object
+		productDetails = [
+			{pId:101, pName:'Pepsi',pCategory:'Cold-Drink',pPrice:50},				
+			{pId:102, pName:'Pepsi',pCategory:'Cold-Drink',pPrice:50},
+			{pId:103, pName:'Pepsi',pCategory:'Cold-Drink',pPrice:50},
+			{pId:104, pName:'Pepsi',pCategory:'Cold-Drink',pPrice:50},
+		]
+---------------------------------------------------------------------------------------------
+	This data will come from API calls
+	we perform CRUD operations with this API's
