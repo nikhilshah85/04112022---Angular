@@ -1,0 +1,13 @@
+
+
+
+<table border="1">
+    <tr *ngFor="let e of empDetails">
+        <td> {{ e.empNo }} </td>
+        <td> {{ e.empName | salutation : e.empGender }} </td>
+        <td> {{ e.empDesigantion }} </td>
+        <td> {{ e.empSalary }} </td>
+        <td> {{ e.empSalary| bonus : e.empDesigantion : e.empSalary  }} </td>
+        
+    </tr>
+</table>

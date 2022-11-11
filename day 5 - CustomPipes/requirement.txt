@@ -1,0 +1,29 @@
+display the name with Salutation
+
+	if Male - Mr.empName
+	if Female  - Mrs. empName
+
+	<td> {{ e.empName | salutation : e.empGender}} </td>
+----------------------------------------------
+display Bonus column
+	Trainer  - 10% of salary
+	Hr - 8% of salary
+	Accounts - 5% of salary
+
+--------------------------------------------------------
+Task :
+	create a new pipe - travelincentive, which will display incentive
+
+		Male - HR  - 2000 permonth
+		Female - Hr - 3000 permonth
+
+		Male - Accounts - 4000 per month
+		Female - Accounts - 5000 per month
+
+		Trainer - 2500 per month (same for both male and female)
+
+
+	------
+	Create a pipe to display AnnualCTC to company for every employee
+		Salary + Bonus + travelincentive
+		
