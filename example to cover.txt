@@ -1,0 +1,1 @@
+Sir In our Angular project we have one bug that error alert needs to be pop But like HTTP response is 500 how to implement a error pop up and postback need not to be happen..Any suggestion for this issue sir 
