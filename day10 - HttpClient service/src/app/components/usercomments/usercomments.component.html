@@ -1,0 +1,15 @@
+<p>usercomments works!</p>
+
+
+<button (click)="_dataCallObj.getCommentsData()"> Show Comments </button>
+
+
+<table border="1">
+    <tr *ngFor="let c of _dataCallObj.commentsData">
+        <td> {{ c.id }} </td>
+        <td> {{ c.postId }} </td>
+        <td> {{ c.name }} </td>
+        <td> {{ c.email | uppercase }} </td>
+        <td> {{ c.body }} </td>
+    </tr>
+</table>
